@@ -34,4 +34,22 @@ DB_USER=your_username ex: root
 DB_PASSWORD=your_password ex:12345
 DB_DATABASE=your_db_name ex: test
 ```
+- **Run the server.**
+```bash
+npm run dev
+```
+- **Hit the api**
+```bash
+http://localhost:8080/api/orders?limit=10&offset=4
+```
+## Contributing
+
+Pull requests are welcome. For major changes, please open an issue first
+to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
 
